@@ -123,3 +123,30 @@
     height: 40px;
     font-weight:300;
 }
+.h2s-top{
+    display: flex;
+    height: 150px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #86c7ff;
+}
+.content-contacts{
+    display: flex;
+}
+.block-main-content-contacts{
+    border: 1px solid #000000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    width: 450px;
+}
+.img.contacts{
+
+}
+.ps-block-main{
+    width: 300px;
+    border: 1px solid #000000;
+}

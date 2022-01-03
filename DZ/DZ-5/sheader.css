@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.header{
+    height: 50px; /*задал высоту*/
+    display: flex; 
+    align-items: center; /*задал расположение по центру*/
+    border: 1px solid #000000; /*рамка для наглядности*/
+}
+
+.ul-header{
+    list-style-type: none; /*убрал маркеры нумерации*/
+    display: flex; /*включение флекс*/
+    padding-left: 10px; /*левый отступ*/
+}
+.li-header{
+    padding-left: 10px; /*левый отступ между элементами списка*/
+}
+.a-header{
+    text-decoration: none; /*убрал подчёркивание текста*/
+    font-weight: bold; /*текст жирным шрифтом*/
+    color: black; /*текст текста*/
+}
+.container { /*общее центрирование*/
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.block-h1{
+    background-color: #f0bb0cc5;
+}
+.block-h1-p-home{
+    display: flex;
+    flex-direction: column;
+}
+.h1s{
+    width: 510px;
+    font-size: 64px;
+    color:#1F3F68;
+    align-self: flex-start;
+}
+.ps-h1{
+    width: 425px;
+    font-size: 16px;
+    line-height: 26px;
+    color: #000000
+}
+.what-we-do {
+    color: #1F3F68;
+}
+.block-content-h4{
+    display: flex;
+    justify-content: space-between;
+}
+.content-h4{
+    width: 359px;
+    padding: 2px;
+    border: 1px solid #000000;
+}
+.content-h4 h4{
+    text-align: center;
+}
+.ps{
+    font-size: 16px;
+    line-height: 26px;
+    color: #000000
+}
+.h2s{
+    font-weight: 500;
+    font-size: 44px;
+    text-align: center;
+}
+.h3s{
+    font-size: 36px;
+    text-align: center;
+}
+.h4s{
+    font-size: 20px;
+    line-height: 30px;
+    color: #1F3F68;
+}
+.input-area-style{
+    border: 1px solid #356EAD;
+    box-sizing: border-box;
+    border-radius: 10px;
+    opacity: 0.4;
+}
+.button-style{
+    background: #5A98D0;
+    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+.block-footer-h4{
+    width: 495px;
+}
+.block-footer-h4 h4{
+    width: 340;
+}
+.block-footer-ul{
+    background-color: #1F3F68;
+    color: #FFFFFF;
+}
+.footer-ul{
+    display: flex;
+    justify-content: space-around
+}
+.footer-ul li{
+    list-style: none;
+}
+.rights-reserved{
+    background-color: #67cae9bd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    font-weight:300;
+}
